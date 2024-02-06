@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #bd2c00; /* Rojo oscuro */
+}
+
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el área de enseñanza */
+#areas-de-ensenanza {
+    background-color: #bd2c00; /* Rojo oscuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el área de razones para elegir ADMIRA U */
+#razones-para-elegir {
+    background-color: #f5f5f5; /* Gris claro */
+}
+
+/* Estilo para el área de contacto */
+#contacto {
+    background-color: #bd2c00; /* Rojo oscuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Imágenes de prueba (sustitúyelas con las reales) */
+#logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#imagen-industrial {
+    width: 100%; /* O ajusta el tamaño según sea necesario */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* animaciones*\
+/* Animación de movimiento para el logotipo */
+#logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#logo:hover {
+    transform: rotate(360deg); /* Gira 360 grados al pasar el ratón sobre el logotipo */
+}
+
+/* Animación de clic para los elementos de la lista */
+ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+ul li:hover {
+    color: #bd2c00; /* Cambia el color al pasar el ratón sobre los elementos de la lista */
+}
+
+/* Animación de clic para el área de contacto */
+#contacto {
+    background-color: #bd2c00; /* Rojo oscuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contacto:hover {
+    background-color: #811c00; /* Cambia el color al pasar el ratón sobre el área de contacto */
+}
